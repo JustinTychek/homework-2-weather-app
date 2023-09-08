@@ -1,0 +1,58 @@
+{
+  "STUDENTS": [
+    {
+      "firstName": "Justin",
+      "lastName": "Tychek",
+      "address": "123 Main St",
+      "phone": "317-123-4567",
+      "email": "justin@gmail.com",
+      "classes": [
+        {
+          "classNumber": "123"
+        },
+        {
+          "classNumber": "765"
+        },
+        {
+          "classNumber": "901"
+        }
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Smith",
+      "address": "765 Main St",
+      "phone": "317-098-1234",
+      "email": "john@gmail.com",
+      "classes": [
+        {
+          "classNumber": "231"
+        },
+        {
+          "classNumber": "999"
+        },
+        {
+          "classNumber": "678"
+        }
+      ]
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "White",
+      "address": "000 Main St",
+      "phone": "317-456-9237",
+      "email": "sarah@gmail.com",
+      "classes": [
+        {
+          "classNumber": "312"
+        },
+        {
+          "classNumber": "568"
+        },
+        {
+          "classNumber": "000"
+        }
+      ]
+    }
+  ]
+}

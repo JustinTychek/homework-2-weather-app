@@ -1,0 +1,98 @@
+.nav {
+  background-color: rgb(148, 192, 255);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .links {
+    width: 70%;
+    // background-color: green;
+    display: flex;
+    justify-content: space-around;
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+    }
+  }
+
+  .buttons {
+    width: 220px;
+    display: flex;
+    // background-color: pink;
+    justify-content: space-around;
+    margin-right: 60px;
+    button {
+      width: 90px;
+      font-size: 15px;
+      padding: 10px;
+      margin: 0px 5px;
+      border-radius: 30px;
+      background-color: rgb(35, 84, 152);
+      color: white;
+      font-weight: bold;
+      border: none;
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .nav {
+    .links {
+      a {
+        font-size: 20px;
+      }
+    }
+
+    .buttons {
+      width: 170px;
+      margin-right: 40px;
+      button {
+        width: 90px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .nav {
+    .links {
+      a {
+        font-size: 14px;
+      }
+    }
+
+    .buttons {
+      width: 160px;
+      margin-right: 40px;
+      button {
+        width: 90px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .nav {
+    height: 60px;
+    .links {
+      a {
+        font-size: 11px;
+      }
+    }
+
+    .buttons {
+      width: 140px;
+      margin-right: 20px;
+      button {
+        width: 55px;
+        font-size: 8px;
+        height: 30px;
+      }
+    }
+  }
+}

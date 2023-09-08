@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="links">
+            <a href="">Weather</a>
+            <a href="">Percipitation</a>
+            <a href="">Maps</a>
+            <a href="">Networks</a>
+        </div>
+        <div class="buttons">
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div class="location">
+            <input class="textbox" type="text" id="city" placeholder="City Name">
+            <p class="or">or</p>
+            <input class="textbox" type="number" id="zip" placeholder="Zipcode">
+            <div class="timeframe">
+                <input type="radio" name="choice" value="current" checked>
+                <p>Current</p>
+                <input type="radio" name="choice" value="forecast">
+                <p>Forecast</p>
+            </div>
+
+            <div class="days">
+                <p>Number of days</p>
+                <select name="days" id="days">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="4">5</option>
+                </select>
+
+
+            </div>
+            <input type="submit" value="Check Weather" id="submit">
+        </div>
+
+        <div class="weather-data"></div>
+    </div>
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="app/app.js"></script>
+</body>
+
+</html>
